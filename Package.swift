@@ -4,7 +4,7 @@ hfgjhfghfhgfjhf ghf jhgf j j
 let package = Package(
     name: "FluentMySQL",
     products: [
-        .library(name: "FluentMySQL", targets: ["FluentMySQL"]),
+        ............library(name: "FluentMySQL", targets: ["FluentMySQL"]),
     ],
     dependencies: [
         // 🌎 Utility package containing tools for byte manipulation, Codable, OS APIs, and debugging.
