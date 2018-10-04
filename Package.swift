@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
  //       .target(name: "FluentMySQL", dependencies: ["Async", "FluentSQL", "MySQL"]),
-   //     .target(name: "FluentMySQL", dependencies: ["MySQL"]),
+        .target(name: "FluentMySQL", dependencies: []),
         .testTarget(name: "FluentMySQLTests", dependencies: ["FluentBenchmark", "FluentMySQL"]),
     ]
 )
